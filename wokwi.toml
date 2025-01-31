@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/clock1.hex'
+elf = 'build/clock1.elf'
