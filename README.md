@@ -6,12 +6,14 @@ Este projeto implementa um sistema de controle de LEDs utilizando um temporizado
 ## Funcionalidade
 O programa utiliza um temporizador que chama a função `repeating_timer_callback()` a cada 3 segundos para alternar entre os LEDs. Além disso, um contador exibe no terminal a passagem de tempo em segundos.
 
-## Hardware Necessário
-- Raspberry Pi Pico
-- 3 LEDs (vermelho, azul e verde)
-- 3 resistores adequados (exemplo: 330Ω)
-- Jumpers
-- Protoboard
+## 🛠️ Tecnologias Utilizadas
+
+- *Linguagem de Programação*: C.
+- *Placas Microcontroladoras*:
+  - BitDogLab.
+  - Pico w.
+- *Ferramentas*:
+  - Wokwi.
 
 ## Esquemático de Conexão
 | LED | GPIO |
@@ -40,6 +42,12 @@ Passou se 1 segundo(s)
 ```
 Enquanto isso, os LEDs mudarão de cor a cada 3 segundos.
 
+## 🗂️ Estrutura do Repositório
+
+- `clock1.c`: Código-fonte.
+- `README.md`/: Tutoriais e explicações sobre a Documentação do projeto.
+- `diagram.jso`n/: Diagramas de conexão e esquemas de hardware.
+- 
 ## Autor
 - **[Nicassio Santos.](https://github.com/nicassiosantos)**
 
