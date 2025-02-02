@@ -15,6 +15,12 @@ O programa utiliza um temporizador que chama a função `repeating_timer_callbac
 - *Ferramentas*:
   - Wokwi.
 
+## 🗂️ Estrutura do Repositório
+
+- `clock1.c`: Código-fonte.
+- `README.md`/: Tutoriais e explicações sobre a Documentação do projeto.
+- `diagram.jso`n/: Diagramas de conexão e esquemas de hardware.
+
 ## Esquemático de Conexão
 | LED | GPIO |
 |------|------|
@@ -42,12 +48,6 @@ Passou se 1 segundo(s)
 ```
 Enquanto isso, os LEDs mudarão de cor a cada 3 segundos.
 
-## 🗂️ Estrutura do Repositório
-
-- `clock1.c`: Código-fonte.
-- `README.md`/: Tutoriais e explicações sobre a Documentação do projeto.
-- `diagram.jso`n/: Diagramas de conexão e esquemas de hardware.
-- 
 ## Autor
 - **[Nicassio Santos.](https://github.com/nicassiosantos)**
 
